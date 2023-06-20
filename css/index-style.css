@@ -1,0 +1,40 @@
+.font-size-logo {
+    font-size: 3rem;
+}
+
+.sign-in:hover {
+    background-color: transparent;
+    border-color: var(--blue-4);
+    color: var(--blue-4);
+    transition: 0.5s;
+}
+
+.social-media a {
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 2rem;
+    width: 2rem;
+}
+
+.facebook-icon {
+    background-image: url(../images/icons/facebook.png);
+}
+
+.google-icon {
+    background-image: url(../images/icons/google.png);
+}
+
+.apple-icon {
+    background-image: url(../images/icons/apple.png);
+}
+
+.social-media a:hover {
+    transform: scale(1.25);
+    transition: 0.5s;
+}
+
+.footer-links a:hover {
+    color: var(--grey-1);
+}

@@ -1,0 +1,51 @@
+.profile-icon {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    background-image: url(../images/icons/profile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 6.25rem;
+    width: 6.25rem ;
+}
+
+.plus-icon {
+    background-image: url(../images/icons/plus.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1.90rem;
+    width: 1.90rem;
+}
+
+.plus-icon:hover {
+    transform: scale(1.25);
+    transition: 0.5s;
+}
+
+.border-color {
+    border-color: var(--blue-3);
+}
+
+.border-color:hover {
+    background-color: var(--white-1);
+}
+
+.terms-link:hover {
+    color: var(--blue-4)
+}
+
+.agree-checkbox:hover {
+    color: var(--blue-2);
+}
+
+.cancel-btn:hover {
+    background-color: var(--blue-1);
+    color: var(--grey-1);
+}
+
+.register-btn:hover {
+    background-color: var(--blue-4);
+    color: var(--blue-1);
+}

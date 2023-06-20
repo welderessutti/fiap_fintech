@@ -18,25 +18,26 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index-style.css">
 </head>
 
-<body class="bg-my-blue-1">
+<body class="bg-my-blue-2">
     <main class="container p-5 px-5">
-        <h1 class="mb-5 txt-my-blue-3 fw-bold font-size-logo text-center">DeedsCash</h1>
+        <h1 class="mb-5 txt-my-blue-4 fw-bold font-size-logo text-center">DeedsCash</h1>
 
         <form action="#" method="post">
             <div class="mb-2">
                 <label class="form-label txt-my-grey-1 fw-light" for="email">E-mail</label>
-                <input class="form-control" type="email" name="email" id="email">
+                <input class="form-control" type="email" name="email" id="email" required placeholder="seu@email.com.br">
             </div>
 
             <div class="mb-4">
                 <label class="form-label txt-my-grey-1 fw-light" for="password">Senha</label>
-                <input class="form-control" type="password" name="password" id="password">
+                <input class="form-control" type="password" name="password" id="password" required minlength="8" maxlength="16" placeholder="********">
             </div>
 
             <div class="d-grid">
-                <button class="btn btn-lg mb-5 bg-my-blue-3 txt-my-blue-1 fs-3 fw-semibold rounded-pill sign-in" type="submit">Entrar</button>   
+                <button class="btn btn-lg mb-5 bg-my-blue-4 txt-my-blue-2 fs-3 fw-semibold rounded-pill sign-in" type="submit">Entrar</button>   
             </div>
         </form>
 
@@ -53,9 +54,9 @@
         </section>
 
         <section class="d-flex pt-5 justify-content-between footer-links">
-            <a class="txt-my-blue-3" href="#">Cadastre-se</a>
+            <a class="txt-my-blue-4" href="pages/signup.html">Cadastre-se</a>
 
-            <a class="txt-my-blue-3" href="#">Recuperar senha</a>
+            <a class="txt-my-blue-4" href="#">Recuperar senha</a>
         </section>
     </main>
 
