@@ -43,9 +43,11 @@
 .cancel-btn:hover {
     background-color: var(--blue-1);
     color: var(--grey-1);
+    transition: 0.5s;
 }
 
 .register-btn:hover {
     background-color: var(--blue-4);
     color: var(--blue-1);
+    transition: 0.5s;
 }

@@ -38,3 +38,36 @@
 .footer-links a:hover {
     color: var(--grey-1);
 }
+
+@media (min-width: 960px) {
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        /* width: 100vw; */
+        /* max-width: 1200px; */
+    }    
+
+    .vector-image {
+        background-image: url(../images/vectors/login.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        width: 50%;
+        margin-right: 2rem;
+        /* height: 656.2px; */
+    }
+
+    .login-side {
+        width: 50%;
+        /* padding: 5%; */
+    }
+}
+
+/* deixei aqui pra caso precise!! */
+/* body {
+    display: flex;
+    align-items: center;
+} */
