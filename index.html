@@ -23,36 +23,46 @@
 
 <body class="bg-my-blue-2">
     <main class="container  p-5">
-        <div class="vector-image"></div>
+        <section class="vector-side">
+            <img class="vector" src="images/vectors/login.jpg" alt="Vector-image">
+        </section>
 
-        <div class="login-side">
+        <!-- <div class="vector-image"></div> -->
+
+        <section class="login-side">
             <h1 class="mb-5 txt-my-blue-4 fw-bold font-size-logo text-center">DeedsCash</h1>
+
             <form action="#" method="post">
                 <div class="mb-2">
                     <label class="form-label txt-my-grey-1 fw-light" for="email">E-mail</label>
                     <input class="form-control" type="email" name="email" id="email" required placeholder="seu@email.com.br">
                 </div>
+
                 <div class="mb-4">
                     <label class="form-label txt-my-grey-1 fw-light" for="password">Senha</label>
                     <input class="form-control" type="password" name="password" id="password" required minlength="8" maxlength="16" placeholder="********">
                 </div>
+
                 <div class="d-grid">
                     <button class="btn btn-lg mb-5 bg-my-blue-4 txt-my-blue-2 fs-3 fw-semibold rounded-pill sign-in" type="submit">Entrar</button>
                 </div>
             </form>
+
             <section class="d-flex mb-5 flex-column align-items-center">
                 <h2 class="mb-3 txt-my-grey-1 fs-6 fw-light">Entrar com</h2>
+
                 <div class="d-flex column-gap-3 social-media">
                     <a class="facebook-icon" href="#"></a>
                     <a class="google-icon" href="#"></a>
                     <a class="apple-icon" href="#"></a>
                 </div>
             </section>
+
             <section class="d-flex pt-5 justify-content-between footer-links">
                 <a class="txt-my-blue-4" href="pages/signup.html">Cadastre-se</a>
                 <a class="txt-my-blue-4" href="#">Recuperar senha</a>
             </section>
-        </div>
+        </section>
     </main>
 
     <!-- JS Bootstrap -->
