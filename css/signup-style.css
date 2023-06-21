@@ -1,20 +1,9 @@
 .profile-icon {
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    background-image: url(../images/icons/profile.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
     height: 6.25rem;
     width: 6.25rem ;
 }
 
 .plus-icon {
-    background-image: url(../images/icons/plus.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
     height: 1.90rem;
     width: 1.90rem;
 }
@@ -24,11 +13,7 @@
     transition: 0.5s;
 }
 
-.border-color {
-    border-color: var(--blue-3);
-}
-
-.border-color:hover {
+.border-my-blue-3:hover {
     background-color: var(--white-1);
 }
 

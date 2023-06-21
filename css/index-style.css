@@ -9,25 +9,8 @@
     transition: 0.5s;
 }
 
-.social-media a {
-    display: inline-block;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 2rem;
+.social-media > a > img {
     width: 2rem;
-}
-
-.facebook-icon {
-    background-image: url(../images/icons/facebook.png);
-}
-
-.google-icon {
-    background-image: url(../images/icons/google.png);
-}
-
-.apple-icon {
-    background-image: url(../images/icons/apple.png);
 }
 
 .social-media a:hover {
@@ -55,7 +38,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        /* background-color: white; */
         border-radius: 0.375rem;
     }
     
@@ -66,20 +48,10 @@
     }
 
     .vector {
-        width: 100%;
         border-radius: 0.375rem;
     }
 
     .login-side {
         width: 50%;
     }
-/*
-    .sign-in {
-        background-color: var(--blue-2);
-        color: var(--blue-4);
-    }
-
-    .dif-font-color {
-        color: var(--blue-2);
-    } */
 }

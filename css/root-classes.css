@@ -69,3 +69,7 @@
 .txt-my-green-1 {
     color: var(--green-1);
 }
+
+.border-my-blue-3 {
+    border-color: var(--blue-3);
+}
