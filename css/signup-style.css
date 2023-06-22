@@ -34,3 +34,12 @@
     color: var(--blue-1);
     transition: 0.5s;
 }
+
+@media (min-width: 960px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+}
