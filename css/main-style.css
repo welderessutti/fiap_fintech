@@ -15,7 +15,7 @@
 }
 
 .main-margin {
-    margin: 250px 8px 0;
+    margin: 15.75rem .5rem 6rem;
 }
 
 .expenses-icons {
@@ -28,4 +28,12 @@
 
 .container-add-icon > img {
     width: 1.25rem;
+}
+
+footer > nav {
+    box-shadow: 0 -0.125rem .25rem rgba(0,0,0,.075);
+}
+
+.nav-icons {
+    width: 3rem;
 }
