@@ -9,16 +9,16 @@
     transition: 0.5s;
 }
 
-.social-media > a > img {
+.social-media {
     width: 2rem;
 }
 
-.social-media a:hover {
+.social-media:hover {
     transform: scale(1.25);
     transition: 0.5s;
 }
 
-.footer-links a:hover {
+.footer-links:hover {
     color: var(--grey-1);
 }
 

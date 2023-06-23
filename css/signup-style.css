@@ -11,6 +11,10 @@
     transition: 0.5s;
 }
 
+form label, option, a {
+    font-size: .75rem;
+}
+
 .border-my-blue-3:hover {
     background-color: var(--white-1);
 }
