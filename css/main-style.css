@@ -9,3 +9,23 @@
 .hide-icon {
     width: 1.25rem;
 }
+
+.summary-size {
+    font-size: .75rem;
+}
+
+.main-margin {
+    margin: 250px 8px 0;
+}
+
+.expenses-icons {
+    width: 2.5rem;
+}
+
+.container-add-icon > p {
+    font-size: .8rem;
+}
+
+.container-add-icon > img {
+    width: 1.25rem;
+}
