@@ -2,6 +2,10 @@
     font-size: 3rem;
 }
 
+.bg-input:hover {
+    background-color: var(--white-1);
+}
+
 .sign-in:hover {
     background-color: transparent;
     border-color: var(--blue-4);
