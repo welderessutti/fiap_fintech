@@ -1,4 +1,3 @@
-# fiap_fintech
 <h1>DeedsCash Fiap Fintech Project</h1>
 <p>This is my FIAP College Project called DeedsCash.</p>
 <p>It´s a fintech prototype developed using only HTML5, CSS3 with Bootstrap5 at the moment. Currently there are only three pages built, the login page, the singup page and the main page. All of them have desktop and mobile browser layout versions.</p>
