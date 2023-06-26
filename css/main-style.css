@@ -1,3 +1,7 @@
+.desktop-layout {
+    display: none;
+}
+
 .profile-icon {
     width: 3.5rem;
 }
@@ -53,4 +57,45 @@ footer > nav {
 .nav-icons:hover {
     transform: scale(1.25);
     transition: 0.5s;
+}
+
+@media (min-width: 960px) {
+    .mobile-layout {
+        display: none;
+    }
+
+    body {
+        display: flex;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .desktop-layout {
+        display: flex;
+        align-items: center;
+        min-width: 100vw;
+    }
+
+    .nav-height {
+        position: fixed;
+        top: 0;
+        left: 0;
+        min-height: 100vh;
+    }
+
+    .section-padding {
+        padding-left: 5rem;
+    }
+
+    .chart-side {
+        width: 50%;
+    }
+
+    .expenses-chart {
+        max-width: 75%;
+    }
+    
+    .expenses-side {
+        width: 50%;
+    }
 }

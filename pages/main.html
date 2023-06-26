@@ -22,199 +22,296 @@
 </head>
 
 <body class="bg-my-white-1">
-    <header class="fixed-top bg-white p-4 rounded-bottom-4 shadow-sm">
-        <section class="d-flex justify-content-between mb-3">
-            <div class="d-flex align-items-center">
-                <img class="me-2 profile-icon" src="../images/icons/profile.png" alt="Ícone de perfil">
+    <div class="mobile-layout">
+        <header class="fixed-top bg-white p-4 rounded-bottom-4 shadow-sm">
+            <section class="d-flex justify-content-between mb-3">
+                <div class="d-flex align-items-center">
+                    <img class="me-2 profile-icon" src="../images/icons/profile.png" alt="Ícone de perfil">
+                    <p class="m-0 fw-medium">Olá, <br>Welder Ressutti</p>
+                </div>
+                <div>
+                    <a href="#">
+                        <img class="settings-icon" src="../images/icons/settings.png" alt="Ícone de configurações">
+                    </a>
+                </div>
+            </section>
+            <section class="d-flex justify-content-center align-items-center mb-3">
+                <div class="invisible-div"></div>
+                <div class="mx-2 text-center">
+                    <p class="m-0 lh-sm opacity-50">Seu saldo</p>
+                    <p class="m-0 lh-sm fs-1 fw-semibold">R$ 12.573.60</p>
+                </div>
+                <button class="btn btn-link mt-3 p-0 border-0">
+                    <img class="hide-icon" src="../images/icons/hide.png" alt="Ícone para esconder valores">
+                </button>
+            </section>
+            <section class="d-flex justify-content-evenly">
+                <div class="container p-0 text-center">
+                    <p class="summary-size m-0 fw-medium">Despesas mês</p>
+                    <p class="m-0 fw-medium txt-my-red-1">R$ 318,27</p>
+                </div>
+                <div class="container p-0 border-start border-end text-center">
+                    <p class="summary-size m-0 fw-medium">Investimentos</p>
+                    <p class="m-0 fw-medium txt-my-green-1">R$ 5.003,10</p>
+                </div>
+                <div class="container p-0 text-center">
+                    <p class="summary-size m-0 fw-medium">Receitas mês</p>
+                    <p class="m-0 fw-medium txt-my-green-1">R$ 7.570,50</p>
+                </div>
+            </section>
+        </header>
 
-                <p class="m-0 fw-medium">Olá, <br>Welder Ressutti</p>
-            </div>
+        <main class="main-margin">
+            <p class="m-0 opacity-50">Últimos lançamentos</p>
+            <ul class="list-group bg-white px-3 shadow-sm">
+                <li class="expenses-border-bottom">
+                    <div class="d-flex justify-content-between py-3">
+                        <div class="d-flex align-items-center">
+                            <img class="me-3 expenses-icons" src="../images/icons/dollar.png" alt="Ícone de cifrão">
+                            <div>
+                                <p class="m-0 fw-medium lh-sm">Salário</p>
+                                <p class="m-0 fw-medium lh-sm txt-my-green-1">+ R$ 7.570,50</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <p class="m-0 fw-light date-font-size">05/04</p>
+                            <button class="btn btn-link p-0 border-0">
+                                <img class="ms-4 plus-icon" src="../images/icons/add.png" alt="Ícone de adicionar">
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="expenses-border-bottom">
+                    <div class="d-flex justify-content-between py-3">
+                        <div class="d-flex align-items-center">
+                            <img class="me-3 expenses-icons" src="../images/icons/bag.png" alt="Ícone de cifrão">
+                            <div>
+                                <p class="m-0 fw-medium lh-sm">Mercado</p>
+                                <p class="m-0 fw-medium lh-sm txt-my-red-1">- R$ 318,27</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <p class="m-0 fw-light date-font-size">02/04</p>
+                            <button class="btn btn-link p-0 border-0">
+                                <img class="ms-4 plus-icon" src="../images/icons/add.png" alt="Ícone de adicionar">
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="expenses-border-bottom">
+                    <div class="d-flex justify-content-between py-3">
+                        <div class="d-flex align-items-center">
+                            <img class="me-3 expenses-icons" src="../images/icons/aid.png" alt="Ícone de cifrão">
+                            <div>
+                                <p class="m-0 fw-medium lh-sm">Farmácia</p>
+                                <p class="m-0 fw-medium lh-sm txt-my-red-1">- R$ 214,88</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <p class="m-0 fw-light date-font-size">28/03</p>
+                            <button class="btn btn-link p-0 border-0">
+                                <img class="ms-4 plus-icon" src="../images/icons/add.png" alt="Ícone de adicionar">
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="expenses-border-bottom">
+                    <div class="d-flex justify-content-between py-3">
+                        <div class="d-flex align-items-center">
+                            <img class="me-3 expenses-icons" src="../images/icons/gas.png" alt="Ícone de cifrão">
+                            <div>
+                                <p class="m-0 fw-medium lh-sm">Gasolina</p>
+                                <p class="m-0 fw-medium lh-sm txt-my-red-1">- R$ 200,00</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <p class="m-0 fw-light date-font-size">28/03</p>
+                            <button class="btn btn-link p-0 border-0">
+                                <img class="ms-4 plus-icon" src="../images/icons/add.png" alt="Ícone de adicionar">
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="expenses-border-bottom">
+                    <div class="d-flex justify-content-between py-3">
+                        <div class="d-flex align-items-center">
+                            <img class="me-3 expenses-icons" src="../images/icons/dollar.png" alt="Ícone de cifrão">
+                            <div>
+                                <p class="m-0 fw-medium lh-sm">Salário</p>
+                                <p class="m-0 fw-medium lh-sm txt-my-green-1">+ R$ 7.570,50</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <p class="m-0 fw-light date-font-size">05/03</p>
+                            <button class="btn btn-link p-0 border-0">
+                                <img class="ms-4 plus-icon" src="../images/icons/add.png" alt="Ícone de adicionar">
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="expenses-border-bottom">
+                    <div class="d-flex justify-content-between py-3">
+                        <div class="d-flex align-items-center">
+                            <img class="me-3 expenses-icons" src="../images/icons/bag.png" alt="Ícone de cifrão">
+                            <div>
+                                <p class="m-0 fw-medium lh-sm">Mercado</p>
+                                <p class="m-0 fw-medium lh-sm txt-my-red-1">- R$ 318,27</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <p class="m-0 fw-light date-font-size">02/03</p>
+                            <button class="btn btn-link p-0 border-0">
+                                <img class="ms-4 plus-icon" src="../images/icons/add.png" alt="Ícone de adicionar">
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="expenses-border-bottom">
+                    <div class="d-flex justify-content-between py-3">
+                        <div class="d-flex align-items-center">
+                            <img class="me-3 expenses-icons" src="../images/icons/aid.png" alt="Ícone de cifrão">
+                            <div>
+                                <p class="m-0 fw-medium lh-sm">Farmácia</p>
+                                <p class="m-0 fw-medium lh-sm txt-my-red-1">- R$ 214,88</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <p class="m-0 fw-light date-font-size">28/02</p>
+                            <button class="btn btn-link p-0 border-0">
+                                <img class="ms-4 plus-icon" src="../images/icons/add.png" alt="Ícone de adicionar">
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="expenses-border-bottom">
+                    <div class="d-flex justify-content-between py-3">
+                        <div class="d-flex align-items-center">
+                            <img class="me-3 expenses-icons" src="../images/icons/gas.png" alt="Ícone de cifrão">
+                            <div>
+                                <p class="m-0 fw-medium lh-sm">Gasolina</p>
+                                <p class="m-0 fw-medium lh-sm txt-my-red-1">- R$ 200,00</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <p class="m-0 fw-light date-font-size">28/02</p>
+                            <button class="btn btn-link p-0 border-0">
+                                <img class="ms-4 plus-icon" src="../images/icons/add.png" alt="Ícone de adicionar">
+                            </button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </main>
 
-            <div>
+        <footer>
+            <nav class="fixed-bottom navbar justify-content-evenly p-3 bg-white rounded-top-4">
                 <a href="#">
-                    <img class="settings-icon" src="../images/icons/settings.png" alt="Ícone de configurações">
+                    <img class="nav-icons" src="../images/icons/pie-chart.png" alt="Ícone de despesa financeira">
                 </a>
-            </div>
+                <a href="#">
+                    <img class="nav-icons" src="../images/icons/target.png" alt="Ícone de objetivo financeiro">
+                </a>
+                <a href="#">
+                    <img class="nav-icons" src="../images/icons/statistic.png" alt="Ícone de investimento">
+                </a>
+            </nav>
+        </footer>
+    </div>
+
+    <div class="desktop-layout">
+        <aside>
+            <nav class="navbar flex-column justify-content-evenly p-3 bg-white rounded-end-4 nav-height">
+                <a href="#">
+                    <img class="nav-icons" src="../images/icons/pie-chart.png" alt="Ícone de despesa financeira">
+                </a>
+
+                <a href="#">
+                    <img class="nav-icons" src="../images/icons/target.png" alt="Ícone de objetivo financeiro">
+                </a>
+
+                <a href="#">
+                    <img class="nav-icons" src="../images/icons/statistic.png" alt="Ícone de investimento">
+                </a>
+            </nav>
+        </aside>
+
+        <section class="container section-padding">
+            <header class="d-flex justify-content-between align-items-center mb-4 p-4 bg-white rounded-4">
+                <div class="d-flex align-items-center">
+                    <img class="me-2 profile-icon" src="../images/icons/profile.png" alt="Ícone de perfil">
+                    <p class="m-0 fw-medium">Olá, <br>Welder Ressutti</p>
+                </div>
+
+                <div>
+                    <a href="#">
+                        <img class="settings-icon" src="../images/icons/settings.png" alt="Ícone de configurações">
+                    </a>
+                </div>
+            </header>
+
+            <main>
+                <section class="d-flex justify-content-between mb-4">
+                    <div class="p-3 bg-white rounded-4">
+                        <p class="m-0 opacity-50">Seu saldo</p>
+                        <div class="d-flex">
+                            <p class="m-0 me-2 fs-4 fw-semibold">R$ 12.573.60</p>
+                            <button class="btn btn-link m-0 p-0 border-0">
+                                <img class="hide-icon" src="../images/icons/hide.png" alt="Ícone para esconder valores">
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-3 rounded-4">
+                        <p class="m-0 opacity-50">Receitas mês</p>
+                        <p class="m-0 fs-4 fw-semibold txt-my-green-1">R$ 7.570,50</p>
+                    </div>
+                    
+                    <div class="bg-white p-3 rounded-4">
+                        <p class="m-0 opacity-50">Despesas mês</p>
+                        <p class="m-0 fs-4 fw-semibold txt-my-red-1">R$ 318,27</p>
+                    </div>
+
+                    <div class="bg-white p-3 rounded-4">
+                        <p class="m-0 opacity-50">Investimentos</p>
+                        <p class="m-0 fs-4 fw-semibold txt-my-green-1">R$ 5.003,10</p>
+                    </div>
+                </section>
+
+                <section class="d-flex justify-content-between">
+                    <div class="me-4 chart-side">
+                        <p class="mb-2 opacity-50">Despesas por categoria</p>
+                        <div class="d-flex justify-content-center p-5 bg-white rounded-4">
+                            <img class="expenses-chart" src="../images/icons/main-chart.png" alt="Gráfico de despesas">
+                        </div>
+                    </div>
+
+                    <div class="expenses-side">
+                        <p class="mb-2 opacity-50">Últimos lançamentos</p>
+
+                        <ul class="list-group rounded-4 bg-white px-3 shadow-sm">
+                            <li class="expenses-border-bottom">
+                                <div class="d-flex justify-content-between py-3">
+                                    <div class="d-flex align-items-center">
+                                        <img class="me-3 expenses-icons" src="../images/icons/dollar.png" alt="Ícone de cifrão">
+                                        <div>
+                                            <p class="m-0 fw-medium lh-sm">Salário</p>
+                                            <p class="m-0 fw-medium lh-sm txt-my-green-1">+ R$ 7.570,50</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <p class="m-0 fw-light date-font-size">05/04</p>
+                                        <button class="btn btn-link p-0 border-0">
+                                            <img class="ms-4 plus-icon" src="../images/icons/add.png" alt="Ícone de adicionar">
+                                        </button>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </main>
         </section>
-
-        <section class="d-flex justify-content-center align-items-center mb-3">
-            <div class="invisible-div"></div>
-
-            <div class="mx-2 text-center">
-                <p class="m-0 lh-sm opacity-50">Seu saldo</p>
-                <p class="m-0 lh-sm fs-1 fw-semibold">R$ 12.573.60</p>
-            </div>
-
-            <button class="btn btn-link mt-3 p-0 border-0">
-                <img class="hide-icon" src="../images/icons/hide.png" alt="Ícone para esconder valores">
-            </button>
-        </section>
-
-        <section class="d-flex justify-content-evenly">
-            <div class="container p-0 text-center">
-                <p class="summary-size m-0 fw-medium">Despesas mês</p>
-                <p class="m-0 fw-medium txt-my-red-1">R$ 318,27</p>
-            </div>
-
-            <div class="container p-0 border-start border-end text-center">
-                <p class="summary-size m-0 fw-medium">Investimentos</p>
-                <p class="m-0 fw-medium txt-my-green-1">R$ 5.003,10</p>
-            </div>
-
-            <div class="container p-0 text-center">
-                <p class="summary-size m-0 fw-medium">Receitas mês</p>
-                <p class="m-0 fw-medium txt-my-green-1">R$ 7.570,50</p>
-            </div>
-        </section>
-    </header>
-
-    <main class="main-margin">
-        <p class="m-0 opacity-50">Últimos lançamentos</p>
-
-        <ul class="list-group bg-white px-3 shadow-sm">
-            <li class="expenses-border-bottom">
-                <div class="d-flex justify-content-between py-3">
-                    <div class="d-flex align-items-center">
-                        <img class="me-3 expenses-icons" src="../images/icons/dollar.png" alt="Ícone de cifrão">
-
-                        <div>
-                            <p class="m-0 fw-medium lh-sm">Salário</p>
-                            <p class="m-0 fw-medium lh-sm txt-my-green-1">+ R$ 7.570,50</p>
-                        </div>
-                    </div>
-
-                    <div class="d-flex align-items-center">
-                        <p class="m-0 fw-light date-font-size">05/04</p>
-
-                        <button class="btn btn-link p-0 border-0">
-                            <img class="ms-4 plus-icon" src="../images/icons/add.png" alt="Ícone de adicionar">
-                        </button>
-                    </div>
-                </div>
-            </li>
-
-            <li class="expenses-border-bottom">
-                <div class="d-flex justify-content-between py-3">
-                    <div class="d-flex align-items-center">
-                        <img class="me-3 expenses-icons" src="../images/icons/dollar.png" alt="Ícone de cifrão">
-
-                        <div>
-                            <p class="m-0 fw-medium lh-sm">Salário</p>
-                            <p class="m-0 fw-medium lh-sm txt-my-green-1">+ R$ 7.570,50</p>
-                        </div>
-                    </div>
-
-                    <div class="d-flex align-items-center">
-                        <p class="m-0 fw-light date-font-size">05/04</p>
-
-                        <button class="btn btn-link p-0 border-0">
-                            <img class="ms-4 plus-icon" src="../images/icons/add.png" alt="Ícone de adicionar">
-                        </button>
-                    </div>
-                </div>
-            </li>
-
-            <li class="expenses-border-bottom">
-                <div class="d-flex justify-content-between py-3">
-                    <div class="d-flex align-items-center">
-                        <img class="me-3 expenses-icons" src="../images/icons/dollar.png" alt="Ícone de cifrão">
-
-                        <div>
-                            <p class="m-0 fw-medium lh-sm">Salário</p>
-                            <p class="m-0 fw-medium lh-sm txt-my-green-1">+ R$ 7.570,50</p>
-                        </div>
-                    </div>
-
-                    <div class="d-flex align-items-center">
-                        <p class="m-0 fw-light date-font-size">05/04</p>
-
-                        <button class="btn btn-link p-0 border-0">
-                            <img class="ms-4 plus-icon" src="../images/icons/add.png" alt="Ícone de adicionar">
-                        </button>
-                    </div>
-                </div>
-            </li>
-
-            <li class="expenses-border-bottom">
-                <div class="d-flex justify-content-between py-3">
-                    <div class="d-flex align-items-center">
-                        <img class="me-3 expenses-icons" src="../images/icons/dollar.png" alt="Ícone de cifrão">
-
-                        <div>
-                            <p class="m-0 fw-medium lh-sm">Salário</p>
-                            <p class="m-0 fw-medium lh-sm txt-my-green-1">+ R$ 7.570,50</p>
-                        </div>
-                    </div>
-
-                    <div class="d-flex align-items-center">
-                        <p class="m-0 fw-light date-font-size">05/04</p>
-
-                        <button class="btn btn-link p-0 border-0">
-                            <img class="ms-4 plus-icon" src="../images/icons/add.png" alt="Ícone de adicionar">
-                        </button>
-                    </div>
-                </div>
-            </li>
-
-            <li class="expenses-border-bottom">
-                <div class="d-flex justify-content-between py-3">
-                    <div class="d-flex align-items-center">
-                        <img class="me-3 expenses-icons" src="../images/icons/dollar.png" alt="Ícone de cifrão">
-
-                        <div>
-                            <p class="m-0 fw-medium lh-sm">Salário</p>
-                            <p class="m-0 fw-medium lh-sm txt-my-green-1">+ R$ 7.570,50</p>
-                        </div>
-                    </div>
-
-                    <div class="d-flex align-items-center">
-                        <p class="m-0 fw-light date-font-size">05/04</p>
-
-                        <button class="btn btn-link p-0 border-0">
-                            <img class="ms-4 plus-icon" src="../images/icons/add.png" alt="Ícone de adicionar">
-                        </button>
-                    </div>
-                </div>
-            </li>
-
-            <li class="expenses-border-bottom">
-                <div class="d-flex justify-content-between py-3">
-                    <div class="d-flex align-items-center">
-                        <img class="me-3 expenses-icons" src="../images/icons/dollar.png" alt="Ícone de cifrão">
-
-                        <div>
-                            <p class="m-0 fw-medium lh-sm">Salário</p>
-                            <p class="m-0 fw-medium lh-sm txt-my-green-1">+ R$ 7.570,50</p>
-                        </div>
-                    </div>
-
-                    <div class="d-flex align-items-center">
-                        <p class="m-0 fw-light date-font-size">05/04</p>
-
-                        <button class="btn btn-link p-0 border-0">
-                            <img class="ms-4 plus-icon" src="../images/icons/add.png" alt="Ícone de adicionar">
-                        </button>
-                    </div>
-                </div>
-            </li>
-        </ul>
-    </main>
-
-    <footer>
-        <nav class="fixed-bottom navbar justify-content-evenly p-3 bg-white rounded-top-4">
-            <a href="#">
-                <img class="nav-icons" src="../images/icons/pie-chart.png" alt="Ícone de despesa financeira">
-            </a>
-
-            <a href="#">
-                <img class="nav-icons" src="../images/icons/target.png" alt="Ícone de objetivo financeiro">
-            </a>
-
-            <a href="#">
-                <img class="nav-icons" src="../images/icons/statistic.png" alt="Ícone de investimento">
-            </a>
-        </nav>
-    </footer>
+    </div>
 
     <!-- JS Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
