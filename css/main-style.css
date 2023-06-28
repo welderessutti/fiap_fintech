@@ -59,7 +59,7 @@ footer > nav {
     transition: 0.5s;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 992px) {
     .mobile-layout {
         display: none;
     }
@@ -81,6 +81,7 @@ footer > nav {
         top: 0;
         left: 0;
         min-height: 100vh;
+        box-shadow: .125rem 0 .25rem rgba(0,0,0,.075);
     }
 
     .section-padding {
